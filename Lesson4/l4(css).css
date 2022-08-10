@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .serv {
+    text-align: center;
+    font-size: 15px;
+    color: #FBC87A;
+    border-style: solid;
+    margin: auto;
+    width: 10%;
+    background-color: #FEF0DA;
+    border-radius: 10px;
+    border-color: #FEF0DA;
+}
+.section h1{
+    text-align: center;
+    color: darkblue;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.section .box{
+    border: solid grey 1px;
+    width: 45%;
+    padding: 1rem;
+    height: 120px;
+    display: inline-block;
+    margin: 1rem 10px;
+}
+.container{
+    width: 95%;
+    margin: auto;
+}
+.container2{
+    width: 92%;
+    margin: auto;
+}
+.section .box .icon{
+    width: 29%;
+    display: inline-block;
+    margin-top: 3%;
+}
+.section .box .text{
+    width: 69%;
+    display: inline-block;
+}
+.box .icon i{
+    font-size: 4rem;
+    text-align: center;
+    display: block;
+}
+.box2   {
+    width: 30%;
+    border: 1px solid black;
+    display: inline-block;
+     height: 210px;
+     padding: 5px;
+     margin-right: 30px;
+
+     
+}
+.container2 h1{
+    color: green;
+    text-align: center;
+    font-size:50px;
+    font-weight: bold;
+}
+.container2 .p1{
+    text-align: center;
+    color: grey;
+}.container2 .box2 i{
+    
+    font-size: 50px;
+    color: green;
+}
+.container2 .box2 p,h3{
+    color: green;
+}
+.section2{
+    margin-top: 2rem;
+}
+
+
+
