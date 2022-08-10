@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 23%;
+    border: 1px solid grey;
+    display: inline-block;
+    border-radius: 4px;
+
+}
+img{
+    width: 100%;
+    border: 5px 5px 0 0;
+}
+a{
+    display: block;
+    border: 1px solid #17A2B8;
+    text-decoration: none;
+    margin-bottom: 5%;
+    width: 30%;
+    padding: 10px;
+    background-color:#17A2B8;
+    color: antiquewhite;
+    border-radius: 5px;
+}
+.box-pad{
+    padding: 15px;
+}
+.blue{
+    color: #17A2B8;
+}
+.grey{
+    color: grey;
+    margin-right: 3%
+}h2{
+    margin-bottom: 10px;
+}
+i{
+    margin-right: 2%;
+}
+p{
+    margin: 10px 0;
+}span{color: grey;}
