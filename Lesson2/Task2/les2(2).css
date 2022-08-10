@@ -1,0 +1,40 @@
+div {
+    text-align: center;
+}
+
+hr {
+    margin-bottom: 3%;
+}
+
+.fb {
+    border-style: solid;
+    background-color: blue;
+    color: aliceblue;
+    padding: 7px;
+}
+
+.tw {
+    border-style: solid;
+    background-color: rgb(0, 162, 255);
+    color: aliceblue;
+    padding: 7px;
+
+}
+
+i {
+    margin-right: 5px;
+}
+
+.vk {
+    border-style: solid;
+    background-color: rgb(94, 255, 0);
+    color: aliceblue;
+    padding: 7px;
+}
+
+.fl {
+    border-style: solid;
+    background-color: rgb(255, 0, 0);
+    color: aliceblue;
+    padding: 7px;
+}
