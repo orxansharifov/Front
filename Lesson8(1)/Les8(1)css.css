@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section{
+    padding: 9rem;
+    text-align: center;
+}
+
+.container {
+    width: 98%;
+    margin: auto;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.leftbox {
+    width: 29rem;
+    height: 32rem;
+}
+
+.bgImage {
+    background-image: url('cat_photo.jpg');
+    height: 78vh;
+    background-position: 44%;
+    background-size: cover;
+    position: relative;
+}
+
+.bgImage button {
+    padding: 20px;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 35px;
+    position: absolute;
+    bottom: 20px;
+    left: 10rem;
+}
+
+.rightbox1,
+.rightbox2 {
+    width: 14rem;
+    height: 32rem;
+}
+
+.imgBag img,
+.imgShoes img {
+    width: 100%;
+    height: 37vh;
+    object-fit: cover;
+}
+
+.imgBag,
+.imgShoes {
+    height: 47%;
+    position: relative;
+}
+
+.imgShoes img {
+    margin-top: 28px;
+}
+
+.imgShoes button {
+    position: absolute;
+    bottom: -10px;
+    left: 3rem;
+    padding: 10px 35px;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.imgBag button {
+    position: absolute;
+    bottom: 7%;
+    left: 3rem;
+    padding: 10px 35px;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.rightbox2 img {
+    width: 100%;
+    height: 78vh;
+    object-fit: cover;
+}
+
+.rightbox2 button {
+    position: absolute;
+    bottom:4%;
+    left: 3rem;
+    padding: 10px 35px;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.rightbox2 {
+    position: relative;
+}
