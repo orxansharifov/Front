@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    background-image: url(https://images.pexels.com/photos/11858609/pexels-photo-11858609.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    height: 70vh;
+    width: 100%;
+}.box .text{
+    text-align: center;
+    margin-top: 6rem;
+    padding: 10rem;
+    
+}.box .text h3{
+    color: white;
+    font-size: 38px;
+}.box .text p{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 2rem;
+    margin-top:1rem;
+    
+}
+.box .text button{
+    border: 1px solid white;
+    text-decoration: none;
+    border-radius: 100px;
+    padding: 17px 25px;
+    
+}
