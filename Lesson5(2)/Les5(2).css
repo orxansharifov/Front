@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    height: 200px;
+    width: 30%;
+    
+    display: inline-block;
+    margin: 0px 18px;
+  
+}
+.section{
+    width: 90%;
+    margin: auto;
+    margin-top: 15%;
+}
+img{
+    width: 45%;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-left: 20px;
+    height: 60px;
+}
+.icon{
+    width: 40%;
+    display: inline-block;
+    margin-left: 35%;
+
+    
+}h3{
+    display:inline-block ;
+    margin-top: 10px;
+}
+.text{
+    margin: 20px 0px 0 30px;
+    color: grey
+}
+h1{    text-align: center;
+    margin: 20px 0px 30px 0px;
+font-weight: 20px;}
