@@ -1,0 +1,118 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  list-style: none;
+  padding: 10px 85px;
+  text-decoration: none;
+}
+.container .small-top-nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+.container .small-top-nav ul li {
+  padding-left: 1.5rem;
+  font-size: 13px;
+  color: grey;
+}
+.container .big-top-nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+}
+.container .big-top-nav ul .li {
+  border: 1px solid #f3f3f3;
+  padding: 12px 1rem;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  color: grey;
+  font-size: 15px;
+}
+.container .big-top-nav ul .li i {
+  padding-left: 15rem;
+  color: orange;
+}
+.container .big-top-nav ul .li2 {
+  font-size: 14px;
+}
+.container .big-top-nav ul .li2 i {
+  padding: 0 5px;
+}
+.container .nav {
+  display: flex;
+  padding: 1rem 0;
+}
+.container .nav .nav-item {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.container .nav .nav-item a {
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.dropdown {
+  display: none;
+}
+
+.nav-item:hover .dropdown {
+  display: block;
+}
+
+.nav-item:hover .li-a {
+  color: orange;
+  border-bottom: 2px solid orange;
+}
+
+.bigbox {
+  display: flex;
+  justify-content: flex-start;
+  width: 74rem;
+  height: 325px;
+  position: absolute;
+  left: -78px;
+  top: 2.5rem;
+}
+.bigbox .sixthbox {
+  width: 313px;
+  position: relative;
+}
+.bigbox .sixthbox .firstimg {
+  width: 70%;
+  border-radius: 18px;
+  padding: 1rem 0;
+  position: absolute;
+  top: 0%;
+  left: 75px;
+}
+.bigbox .sixthbox .secondimg {
+  width: 70%;
+  border-radius: 10px;
+  padding: 0.5rem 0;
+  position: absolute;
+  top: 48%;
+  left: 75px;
+}
+.bigbox div {
+  width: 100px;
+  padding: 1rem 2.5rem 0rem 1.5rem;
+}
+.bigbox div .dropdown-item {
+  line-height: 19px;
+}
+.bigbox div .dropdown-item a {
+  color: grey;
+}
+.bigbox div .dropdown-item h3 {
+  color: black;
+}/*# sourceMappingURL=trendyol.css.map */
