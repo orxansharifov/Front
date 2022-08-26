@@ -1,0 +1,84 @@
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding-top: 3rem;
+}
+.container .bigbox {
+  width: 1000px;
+  height: 500px;
+  position: relative;
+  display: flex;
+}
+.container .bigbox .firstBox {
+  width: 600px;
+  height: 500px;
+  text-align: center;
+}
+.container .bigbox .firstBox img {
+  width: 55%;
+}
+.container .bigbox .firstBox span {
+  border: 1px solid #9f132f;
+  padding: 0.7rem 2rem;
+  background-color: #9f132f;
+  color: white;
+  position: absolute;
+  transform: rotate(270deg);
+  top: 24rem;
+  right: 31rem;
+  opacity: 0.8;
+}
+.container .bigbox .secondBox {
+  width: 400px;
+  height: 500px;
+  transform: translate(-21%);
+  padding: 3rem 0;
+  position: relative;
+}
+.container .bigbox .secondBox h1 {
+  padding: 1rem 0;
+}
+.container .bigbox .secondBox span {
+  color: #9f132f;
+  font-size: 12px;
+}
+.container .bigbox .secondBox .text {
+  padding-bottom: 1rem;
+  color: grey;
+  font-size: 15px;
+}
+.container .bigbox .secondBox input {
+  margin-right: 7px;
+}
+.container .bigbox .secondBox p {
+  color: grey;
+  padding-bottom: 10px;
+}
+.container .bigbox .secondBox .about-us a {
+  border: 2px solid #9f132f;
+  text-decoration: none;
+  color: #9f132f;
+  padding: 10px 25px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 7%;
+  right: 66%;
+}
+
+.firstBox::before {
+  content: "";
+  width: 300px;
+  height: 465px;
+  border-style: solid;
+  border-color: grey;
+  border-width: 7px;
+  position: absolute;
+  bottom: 9%;
+  left: 11%;
+}/*# sourceMappingURL=Les12.css.map */
