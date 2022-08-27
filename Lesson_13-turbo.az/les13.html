@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=d, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="les13css.css">
+    <link rel="stylesheet" href="Common.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row unset2">
+                <div class="col-md-2">
+                    <a style="font-weight: bold;" href="">TURBO.AZ</a>
+                </div>
+                <div class="col-md-8 ">
+                    <ul class="row unset2">
+                        <li>Butun Elanlar</li>
+                        <li>Avtosalonlar</li>
+                        <li>Ehtiyyat hisseler ve aksesuarlar</li>
+                    </ul>
+                </div>
+                <div style="padding: 0 27px;" class="col-md-2 ">
+                    <a class="greenbtn" href=""><i style="padding-right: 5px;" class="fa-solid fa-circle-plus"></i>Yeni
+                        elan</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="bgImage">
+        <div class="container">
+            <form class="searchCar">
+                <div class="row">
+                    <div class="col-md-3">
+                        <input class="form-control" placeholder="Marka" list="dataCars">
+                        <datalist id="dataCars">
+                            <option value="Audi"></option>
+                            <option value="BMW"></option>
+                            <option value="KIA"></option>
+                            <option value="Hyundai"></option>
+                        </datalist>
+                    </div>
+                    <div class="col-md-3">
+                        <input style="background-color: #F5F6F9;" class="form-control" placeholder="Model"
+                            list="dataCars">
+                        <datalist id="dataCars">
+                            <option value=""></option>
+                            <option value=""> </option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </datalist>
+                    </div>
+                    <div class="col-md-3 btnInput">
+                        <input type="button" value="Hamisi">
+                        <input type="button" value="Yeni">
+                        <input type="button" value="Surulmus">
+                    </div>
+                    <div class="col-md-3">
+                        <input class="form-control" placeholder="Şəhər" list="dataCars">
+                        <datalist id="dataCars">
+                            <option value="Bakı"></option>
+                            <option value="Sumqayıt"></option>
+                            <option value="Ağdam"></option>
+                            <option value="Lənkəran"></option>
+                        </datalist>
+                    </div>
+                    <div class="col-md-3 price">
+                        <input type="button" value="Hamisi">
+                        <input type="button" value="Yeni">
+                    </div>
+                    <div class="col-md-3 valyuta">
+                        <select>
+                            <option value="AZN">AZN</option>
+                            <option value="USD">USD</option>
+                        </select>
+                        <input class="first" type="button" value="Kredit">
+                        <input type="button" value="Barter">
+                    </div>
+                    <div class="col-md-3">
+                        <input class="form-control" placeholder="Ban novu" list="dataCars">
+                        <datalist id="dataCars">
+                            <option value="Audi">Audi masini</option>
+                            <option value="BMW"> BMW masini</option>
+                            <option value="KIA">KIA masini</option>
+                            <option value="Hyundai">Hyundai masini</option>
+                        </datalist>
+                    </div>
+                    <div class="col-md-3 row year">
+                        <div class="col-md-6">
+                            <input class="form-control" placeholder="Il,min" list="dataCars">
+                            <datalist id="dataCars">
+                                <option value="Audi">Audi masini</option>
+                                <option value="BMW"> BMW masini</option>
+                                <option value="KIA">KIA masini</option>
+                                <option value="Hyundai">Hyundai masini</option>
+                            </datalist>
+                        </div>
+                        <div class="col-md-6">
+                            <input class="form-control2" placeholder="maks" list="dataCars">
+                            <datalist id="dataCars">
+                                <option value="Audi">Audi masini</option>
+                                <option value="BMW"> BMW masini</option>
+                                <option value="KIA">KIA masini</option>
+                                <option value="Hyundai">Hyundai masini</option>
+                            </datalist>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <input class="form-control" placeholder="Reng" list="dataCars">
+                        <datalist id="dataCars">
+                            <option value="Audi">Audi masini</option>
+                            <option value="BMW"> BMW masini</option>
+                            <option value="KIA">KIA masini</option>
+                            <option value="Hyundai">Hyundai masini</option>
+                        </datalist>
+                    </div>
+                    <div class="col-md-3">
+                        <input class="form-control" placeholder="Yanacaq novu" list="dataCars">
+                        <datalist id="dataCars">
+                            <option value="Audi">Audi masini</option>
+                            <option value="BMW"> BMW masini</option>
+                            <option value="KIA">KIA masini</option>
+                            <option value="Hyundai">Hyundai masini</option>
+                        </datalist>
+                    </div>
+                    <div class="col-md-3">
+                        <input class="form-control" placeholder="Oturucu" list="dataCars">
+                        <datalist id="dataCars">
+                            <option value="Audi">Audi masini</option>
+                            <option value="BMW"> BMW masini</option>
+                            <option value="KIA">KIA masini</option>
+                            <option value="Hyundai">Hyundai masini</option>
+                        </datalist>
+                    </div>
+                    <div class="col-md-3">
+                        <input class="form-control" placeholder="Suretler qutusu" list="dataCars">
+                        <datalist id="dataCars">
+                            <option value="Audi">Audi masini</option>
+                            <option value="BMW"> BMW masini</option>
+                            <option value="KIA">KIA masini</option>
+                            <option value="Hyundai">Hyundai masini</option>
+                        </datalist>
+                    </div>
+                    <div class="col-md-4 row">
+                        <div class="col-md-6 ">
+                            <input class="form-control hecm" placeholder="Hecm,min" list="dataCars">
+                            <datalist id="dataCars">
+                                <option value="Audi">Audi masini</option>
+                                <option value="BMW"> BMW masini</option>
+                                <option value="KIA">KIA masini</option>
+                                <option value="Hyundai">Hyundai masini</option>
+                            </datalist>
+                        </div>
+                        <div class="col-md-6">
+                            <input class="form-control hecm2" placeholder="maks" list="dataCars">
+                            <datalist id="dataCars">
+                                <option value="Audi">Audi masini</option>
+                                <option value="BMW"> BMW masini</option>
+                                <option value="KIA">KIA masini</option>
+                                <option value="Hyundai">Hyundai masini</option>
+                            </datalist>
+                        </div>
+                    </div>
+                    <div class="col-md-4 power">
+                        <input type="button" value="Guc">
+                        <input class="maks" type="button" value="maks">
+                    </div>
+                    <div class="col-md-4 power">
+                        <input type="button" value="yurus">
+                        <input class="maks" type="button" value="maks">
+                    </div>
+                    <div class="col-md-3 btnInput">
+                        <input type="button" value="Hamisi">
+                        <input type="button" value="Salonlar">
+                        <input type="button" value="Sexsi">
+                    </div>
+                    <div class="col-md-3">
+                        <input class="form-control" placeholder="Sahiblerinin sayi" list="dataCars">
+                        <datalist id="dataCars">
+                            <option value="Audi">Audi masini</option>
+                            <option value="BMW"> BMW masini</option>
+                            <option value="KIA">KIA masini</option>
+                            <option value="Hyundai">Hyundai masini</option>
+                        </datalist>
+                    </div>
+                    <div class="col-md-3">
+                        <input class="form-control" placeholder="Yerlerin sayi" list="dataCars">
+                        <datalist id="dataCars">
+                            <option value="Audi">Audi masini</option>
+                            <option value="BMW"> BMW masini</option>
+                            <option value="KIA">KIA masini</option>
+                            <option value="Hyundai">Hyundai masini</option>
+                        </datalist>
+                    </div>
+                    <div class="col-md-3 vurug">
+                        <input class="first" type="button" value="Vurugu yoxdur">
+                        <input type="button" value="Renglenmeyib">
+                    </div>
+                    <div class="col-md-3">
+                        <input class="form-control" placeholder="Hansi bazar ucun yigilib" list="dataCars">
+                        <datalist id="dataCars">
+                            <option value="Audi">Audi masini</option>
+                            <option value="BMW"> BMW masini</option>
+                            <option value="KIA">KIA masini</option>
+                            <option value="Hyundai">Hyundai masini</option>
+                        </datalist>
+                    </div>
+                </div>
+                <p style="padding:10px 0;font-weight: bold;text-align: left;">Avtomobilin techizati</p>
+                <ul class="row other">
+                    <li><input type="button" value="Yüngül lehimli disklər"></li>
+                    <li><input type="button" value="ABS"></li>
+                    <li><input type="button" value="Lyuk"></li>
+                    <li><input type="button" value="Yağış sensoru"></li>
+                    <li><input type="button" value="Mərkəzi qapanma"></li>
+                    <li><input type="button" value="Park radarı"></li>
+                    <li><input type="button" value="Kondisioner"></li>
+                    <li><input type="button" value="Oturacaqların isidilməsi"></li>
+                </ul>
+                <ul class="other2">
+                    <li><input type="button" value="Deri salon"></li>
+                    <li><input type="button" value="Ksenon lapmalar"></li>
+                    <li><input type="button" value="Arxa goruntu kamerasi"></li>
+                    <li><input type="button" value="Yan perdeler"></li>
+                    <li><input type="button" value="Oturacaqların ventilyasiyasi"></li>
+
+                </ul>
+                <footer>
+                    <div class="row other">
+                        <div style="font-size: 17px;text-align: left;" class="col-md-3">
+                            <span>Bu gun:</span><a style="color: blue;" href="">1450 yeni elan</a>
+                        </div>
+                        <div style="text-align: right;" class="col-md-6">
+                            <a class="delete" href="">Sifirla</a>
+                            <a class="delete" href="">Gizlet 
+                                <i class="fa-solid fa-angle-up"></i></a>
+                        </div>
+                        <div style="text-align: center;" class="col-md-3">
+                            <a class="show" href="">Elanlari goster</a>
+                        </div>
+                    </div>
+                </footer>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

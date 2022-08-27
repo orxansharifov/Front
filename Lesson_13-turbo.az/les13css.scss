@@ -1,0 +1,206 @@
+header {
+    padding: 1rem 0;
+    background-color: #ca1016;
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    .container {
+        .row {
+            .col-md-8 {
+                li {
+                    list-style: none;
+                    color: white;
+                    margin: 0 1rem;
+                }
+            }
+            .col-md-2 {
+                .greenbtn {
+                    border: 1px solid greenyellow;
+                    padding: 10px 1rem;
+                    border-radius: 5px;
+                    background-color: greenyellow;
+                }
+            }
+        }
+        .unset2 {
+            justify-content: right;
+        }
+    }
+}
+.bgImage {
+    background-image: url(/pexels-emma-miertschin-12848330.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    .searchCar {
+        min-height: 100vh;
+        background-color: #ebedf3;
+        padding: 1rem;
+        text-align: center;
+        .col-md-3 {
+            margin: 10px 0;
+        }
+        .vurug {
+            input {
+                padding: 15px 13px;
+                border-radius: 8px;
+                border: 1px solid grey;
+                background-color: white;
+                color: grey;
+            }
+            input:first-child {
+                margin-right: 18px;
+            }
+        }
+        .col-md-4 {
+            padding: 10px 0;
+        }
+        .btnInput {
+            input {
+                padding: 1rem 20px;
+                border: 1px solid grey;
+                background-color: white;
+            }
+            input:first-child {
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+                background: red;
+                margin-right: -4px;
+            }
+            input:last-child {
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+                margin-left: -4px;
+            }
+        }
+        .form-control {
+            width: 95%;
+            padding: 1rem;
+            border-radius: 8px;
+            border: 1px solid grey;
+        }
+        .hecm {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            margin-left: 3px;
+        }
+        .hecm2 {
+            margin-left: -17px;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            
+        }
+        .valyuta {
+            select {
+                padding: 15px 12px;
+                border-radius: 8px;
+            }
+            .first {
+                margin-left: 24px;
+                padding: 16px 11px;
+                border-radius: 8px;
+                background-color: white;
+                border: 1px solid grey;
+            }
+            input:last-child {
+                padding: 16px 11px;
+                margin-left: 20px;
+                border-radius: 8px;
+                background-color: white;
+                border: 1px solid grey;
+            }
+        }
+        .price {
+            input:last-child {
+                margin-left: -5px;
+                padding: 1rem 47px;
+                background-color: white;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+                border: 1px solid grey;
+            }
+            input:first-child {
+                padding: 1rem 43px;
+                background-color: white;
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+                border: 1px solid grey;
+            }
+        }
+        .year {
+            .form-control:first-child {
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 0px;
+                border-top-right-radius: 0px;
+                margin-left: 7px;
+            }
+            .form-control2 {
+                width: 95%;
+                padding: 1rem;
+                border-radius: 8px;
+                border: 1px solid grey;
+                margin-left: -7px;
+                border-top-left-radius: 0px;
+                border-bottom-left-radius: 0px;
+            }
+        }
+        .power {
+            input {
+                padding: 16px 4.15rem;
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+                border: 1px solid grey;
+                background-color: white;
+            }
+            .maks {
+                margin-left: -5px;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+                border-top-left-radius: 0;
+                border-bottom-left-radius: 0;
+                padding: 1rem 68px;
+            }
+        }
+    }
+}
+.other {
+    padding-right: 13px;
+    .delete {
+        text-decoration: none;
+        margin: 0 10px;
+        color: #ca1016;
+    }
+    .show {
+        text-decoration: none;
+        border: 1px solid #ca1016;
+        color: white;
+        background-color: #ca1016;
+        padding: 1rem 2.5rem;
+        margin-left: 5rem;
+        border-radius: 8px;
+    }
+    input {
+        padding: 15px;
+        border-radius: 8px;
+        background-color: white;
+        border: 1px solid grey;
+    }
+}
+.other2 {
+    display: flex;
+    padding: 15px 0;
+    input {
+        padding: 15px;
+        margin-right: 17px;
+        border-radius: 8px;
+        background-color: white;
+        border: 1px solid grey;
+    }
+}
+ul {
+    li {
+        list-style: none;
+    }
+}
