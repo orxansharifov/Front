@@ -1,0 +1,47 @@
+.container {
+  position: relative;
+}
+
+.main-top {
+  width: 735px;
+  height: 425px;
+  padding: 1rem;
+  position: absolute;
+  top: 5rem;
+  left: 15%;
+  border: 1px solid darkgray;
+  background-color: #f4f5f9;
+}
+.main-top .card {
+  width: 700px;
+  height: 350px;
+}
+.main-top .card .maincard {
+  border: 1px solid grey;
+  border-radius: 1rem;
+  padding: 2.5rem 2rem;
+  background-color: white;
+}
+.main-top .card .maincard hr {
+  width: 38.5rem;
+  margin: 10px 0;
+}
+.main-top .card .maincard p {
+  font-weight: bold;
+  margin: 5px 0;
+}
+.main-top .card .maincard .col-md-6 input {
+  padding: 1rem 4rem;
+  background-color: #f4f5f9;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.main-top .card .maincard .col-md-11 {
+  padding-top: 1rem;
+}
+.main-top .card .maincard .col-md-11 input {
+  padding: 1rem 14rem;
+  background-color: #f4f5f9;
+  border: 1px solid grey;
+  border-radius: 5px;
+}/*# sourceMappingURL=task10.css.map */
