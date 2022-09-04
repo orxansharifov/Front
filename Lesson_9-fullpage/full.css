@@ -1,0 +1,568 @@
+section .top-nav1 {
+  padding: 0.5rem 0;
+  color: grey;
+}
+section .top-nav1 p {
+  text-align: center;
+}
+section .top-nav1 ul li {
+  list-style: none;
+  font-size: 13px;
+}
+section .top-nav1 ul .border {
+  height: 15px;
+  border-right: 1px solid grey;
+}
+section .top-nav1 span {
+  color: #3bb77e;
+  font-weight: bold;
+}
+section .top-nav1 i {
+  font-size: 10px;
+}
+section .top-nav2 {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding: 1.5rem 0;
+}
+section .top-nav2 .icon1 {
+  flex-wrap: nowrap;
+  justify-content: end;
+}
+section .top-nav2 .icon1 .num {
+  background-color: #3bb77e;
+  color: white;
+  padding: 0 4px;
+  border-radius: 50%;
+  border: 1px solid #3bb77e;
+  position: relative;
+  right: 0.5rem;
+  bottom: 1rem;
+  font-size: 14px;
+}
+section .top-nav2 .icon1 a {
+  text-decoration: none;
+  color: grey;
+}
+section .top-nav2 .icon1 i {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+section .top-nav2 ul li {
+  list-style: none;
+}
+section .top-nav2 ul .Nest {
+  font-size: 35px;
+  font-weight: bold;
+  color: #3bb77e;
+  letter-spacing: 2px;
+}
+section .top-nav2 ul .MART {
+  font-size: 9px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  letter-spacing: 2px;
+}
+section .top-nav2 ul .border {
+  height: 15px;
+  margin: 0 10px;
+  border-right: 1px solid grey;
+}
+section .categ {
+  justify-content: unset;
+  border: 1px solid #3bb77e;
+  padding: 15px 12px;
+  width: 640px;
+  margin-left: 2rem;
+}
+section .top-nav3 {
+  padding: 1rem 0;
+  border-bottom: 1px solid grey;
+}
+section .top-nav3 a {
+  font-size: 15px;
+  border: 1px solid #3bb77e;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 13px 50px;
+  background-color: #3bb77e;
+  color: white;
+  font-weight: bold;
+}
+section .top-nav3 ul li {
+  font-weight: bold;
+  list-style-type: none;
+  margin-right: 5px;
+}
+section .top-nav3 ul li i {
+  font-size: 10px;
+  margin-left: 5px;
+}
+section .top-nav3 ul .support {
+  font-size: 28px;
+  color: #3bb77e;
+  list-style: none;
+  font-weight: bold;
+}
+section .top-nav3 ul .support2 {
+  letter-spacing: 1.8px;
+  color: grey;
+  font-weight: normal;
+  font-size: 11px;
+}
+section .snack {
+  padding: 4rem 0;
+  background-color: #def9ec;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+section .snack h1 {
+  margin-left: 5rem;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+section .snack ul li {
+  list-style-type: none;
+}
+section .snack ul li a {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  margin-right: 18px;
+  font-size: 17px;
+}
+section .snack ul li a i {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+section .snack ul .vegetables {
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 12px 0 7px 18px;
+  background-color: white;
+}
+section .snack ul .vegetables a {
+  color: #3bb77e;
+  font-weight: bold;
+  font-size: 14px;
+}
+section .snack ul .vegetables a i {
+  padding-right: 5px;
+  color: grey;
+  font-size: 13px;
+}
+
+.main-div1 {
+  position: relative;
+}
+.main-div1 .items {
+  width: 17%;
+  box-shadow: 0px 0px 5px 5px darkgray;
+  border-radius: 10px;
+  border: 1px solid gray;
+  height: 380px;
+}
+.main-div1 .items .li-items3 {
+  padding: 0 20px;
+}
+.main-div1 .items .li-items3 ul {
+  color: grey;
+}
+.main-div1 .items .li-items3 ul .border {
+  width: 4rem;
+  background-color: #def9ec;
+  border: transparent;
+  height: 4rem;
+}
+.main-div1 .items .li-items3 ul ul {
+  margin-right: 3rem;
+  margin-top: 1.5rem;
+}
+.main-div1 .items .li-items3 ul ul li {
+  font-weight: bold;
+  color: #3bb77e;
+}
+.main-div1 .items .li-items3 ul ul li i {
+  color: #f3c055;
+  font-size: 10px;
+  margin-left: -5px;
+}
+.main-div1 .items .li-items3 li {
+  list-style: none;
+}
+.main-div1 .items .li-items2 {
+  padding: 0 1rem;
+}
+.main-div1 .items .li-items2 p {
+  font-size: 13px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.main-div1 .items .li-items2 p span {
+  color: #3bb77e;
+}
+.main-div1 .items .li-items2 li {
+  list-style: none;
+  font-size: 13px;
+  margin: 10px 0;
+}
+.main-div1 .items .li-items2 li input {
+  margin-right: 5px;
+}
+.main-div1 .items .li-items2 li:first-child {
+  font-weight: bold;
+  border: none;
+  font-size: 1.2rem;
+  padding: 1rem 0;
+}
+.main-div1 .items .li-items2 li:last-child {
+  border: 1px solid #3bb77e;
+  width: 6rem;
+  padding: 10px 1rem;
+  border-radius: 5px;
+  background-color: #3bb77e;
+  color: white;
+  margin-top: 15px;
+}
+.main-div1 .items .li-items2 li:last-child i {
+  margin-right: 10px;
+}
+.main-div1 .items .li-items {
+  padding: 0 1rem;
+}
+.main-div1 .items .li-items hr {
+  margin-top: -1rem;
+}
+.main-div1 .items .li-items li {
+  list-style: none;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 0px 15px;
+  font-size: 12px;
+  margin: 10px 0;
+}
+.main-div1 .items .li-items li span {
+  border: 1px solid #bce3c9;
+  border-radius: 50%;
+  padding: 2px 6px;
+  background-color: #bce3c9;
+}
+.main-div1 .items .li-items li img {
+  vertical-align: middle;
+}
+.main-div1 .items .li-items li:first-child {
+  font-weight: bold;
+  border: none;
+  font-size: 1.2rem;
+  padding: 1rem 0;
+}
+.main-div1 .items .li-items4 {
+  line-height: 13px;
+  padding: 5rem 2rem;
+}
+.main-div1 .items .li-items4 li {
+  list-style: none;
+  padding: 0px 15px;
+  font-size: 12px;
+  margin: 10px 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.main-div1 .items .li-items4 li span {
+  color: #3bb77e;
+}
+.main-div1 .product {
+  height: 22rem;
+  border: 1px solid darkgrey;
+  border-radius: 10px;
+  position: relative;
+  top: 2rem;
+}
+.main-div1 .product .hot {
+  border: 1px solid #f74b81;
+  background-color: #f74b81;
+  font-size: 12px;
+  padding: 5px 18px;
+  border-top-left-radius: 9px;
+  border-bottom-right-radius: 18px;
+  position: absolute;
+  color: white;
+}
+.main-div1 .product h4 {
+  font-weight: normal;
+  position: absolute;
+  top: 4rem;
+  padding: 1rem 1rem;
+  left: 2rem;
+  color: grey;
+}
+.main-div1 .product ul {
+  padding: 6rem 1.5rem;
+  margin-top: 4rem;
+}
+.main-div1 .product ul li {
+  list-style: none;
+}
+.main-div1 .product ul li span {
+  border: 1px solid #def9ec;
+  background-color: #def9ec;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 7px 11px;
+  margin-left: 30px;
+}
+.main-div1 .product ul li span i {
+  color: #3bb77e;
+}
+.main-div1 .product ul li i {
+  color: #f3c055;
+}
+.main-div1 .title {
+  width: 83%;
+  position: absolute;
+  bottom: 22rem;
+  right: 0rem;
+  display: block;
+  height: 60px;
+  font-weight: bold;
+  color: grey;
+}
+.main-div1 .title ul li {
+  list-style-type: none;
+}
+.main-div1 .title ul span {
+  color: #3bb77e;
+}
+.main-div1 .title ul .border {
+  border: 1px solid grey;
+  list-style: none;
+  padding: 10px;
+  border-radius: 8px;
+  margin-right: 5px;
+  font-size: 12px;
+}
+.main-div1 .title ul .border i {
+  padding: 0 5px;
+  font-size: 13px;
+}
+
+.slash {
+  position: absolute;
+  right: 55%;
+  margin-top: 4rem;
+}
+.slash ul li {
+  border: 1px solid darkgray;
+  border-radius: 50%;
+  padding: 9px 14px;
+  background-color: darkgray;
+  list-style: none;
+}
+.slash ul li a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+.slash ul li a i {
+  font-size: 11px;
+}
+
+.data {
+  height: 15rem;
+  background-color: #def9ec;
+  border-radius: 15px;
+}
+.data ul {
+  font-size: 14px;
+  padding: 5px;
+  background-color: white;
+  list-style: none;
+  border: 1px solid white;
+  font-weight: bold;
+}
+.data ul li:first-child {
+  color: #3bb791;
+}
+
+.Sale {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px 2px darkgray;
+  position: absolute;
+}
+.Sale ul .line-th {
+  font-size: 13px;
+  text-decoration: line-through;
+  color: grey;
+  font-weight: bold;
+  margin: -5px 0px 0px 10px;
+}
+.Sale ul li {
+  list-style: none;
+}
+.Sale ul li i {
+  color: yellow;
+  font-size: 10px;
+}
+.Sale ul li span i {
+  color: #3bb791;
+}
+.Sale ul li .add {
+  border: 1px solid #def9ec;
+  background-color: #def9ec;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 7px 11px;
+  margin-left: 30px;
+}
+
+.stayhome {
+  background-color: #def9ec;
+  height: 22rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+}
+.stayhome ul {
+  padding: 6rem;
+}
+.stayhome ul li {
+  list-style: none;
+}
+.stayhome ul li:last-child {
+  border: 1px solid white;
+  width: 20rem;
+  border-radius: 2rem;
+  font-size: 14px;
+  color: grey;
+  background-color: white;
+}
+.stayhome ul li:last-child a {
+  text-decoration: none;
+  border: 1px solid #3bb77e;
+  border-radius: 25px;
+  padding: 1rem 2rem;
+  background-color: #3bb77e;
+  color: white;
+}
+
+.about {
+  padding-top: 10rem;
+}
+.about .more li {
+  margin: 12px 0;
+}
+.about .more li a {
+  text-decoration: none;
+  color: #416a83;
+  font-weight: bold;
+  font-size: 13px;
+}
+.about .more li a h2 {
+  padding: 7px 0px;
+  color: black;
+}
+.about ul li {
+  font-size: 14px;
+  list-style: none;
+}
+.about ul li i {
+  margin: 7px 5px 5px 0px;
+  color: #3bb77e;
+}
+.about ul li span {
+  font-weight: bold;
+}
+.about ul .Nest {
+  font-size: 35px;
+  font-weight: bold;
+  color: #3bb77e;
+  letter-spacing: 2px;
+}
+.about ul .MART {
+  font-size: 9px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  letter-spacing: 2px;
+}
+
+.install li {
+  list-style: none;
+}
+.install li h2 {
+  padding-top: 2rem;
+}
+.install .apple {
+  border: 1px solid black;
+  width: 9rem;
+  justify-content: unset;
+  background-color: black;
+  color: white;
+  padding: 3px 13px;
+  border-radius: 6px;
+}
+.install .apple i {
+  font-size: 2rem;
+  margin-right: 5px;
+}
+.install .apple ul .down {
+  list-style: none;
+  font-size: 10px;
+  font-weight: bold;
+}
+.install .apple ul .app {
+  font-size: 17px;
+  font-weight: bold;
+  list-style: none;
+}
+
+.year li {
+  font-size: 13px;
+  list-style: none;
+  color: grey;
+}
+.year li span {
+  color: #3bb77e;
+}
+
+.phone li {
+  list-style: none;
+}
+.phone li i {
+  font-size: 1.5rem;
+  padding: 0 1rem;
+}
+.phone ul li:first-child {
+  font-size: 23px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #3bb77e;
+}
+.phone ul li:last-child {
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: grey;
+  padding-left: 4px;
+}
+
+.follow {
+  text-align: right;
+}
+.follow ul li:first-child {
+  font-weight: bold;
+  font-size: 14px;
+  list-style: none;
+}
+.follow ul li:first-child i {
+  border: 1px solid #3bb77e;
+  border-radius: 50%;
+  padding: 5px 6px;
+  margin-left: 4px;
+  color: white;
+  background-color: #3bb77e;
+}
+.follow ul li:last-child {
+  font-size: 13px;
+  list-style: none;
+  color: grey;
+  margin-top: 5px;
+}/*# sourceMappingURL=full.css.map */
