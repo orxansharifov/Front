@@ -1,0 +1,84 @@
+
+.container-1 {
+    width: 60%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-form {
+
+    label{
+        margin-bottom: 5px;
+        font-weight: bold;
+        font-size: 20px;
+        span{
+            color: red;
+        }
+    }
+    input {
+        width: 100%;
+        height: 45px;
+        border-radius: 4px;
+        background-color: #fafafa;
+        border: solid 1px #cccccc;
+        color: #224285;
+    }
+.one{
+    width: 1rem;
+    height: auto;
+    transform:scale(1.6);
+}
+#sec{
+    font-weight: normal;
+    margin-left: 10px;
+    font-size: 18px;
+
+}
+select{
+    width: 100%;
+    height: 3rem;
+    border: 1px solid #ccc ;
+    border-radius: 4px; 
+}
+.error1{
+    color: red;
+    display: none;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: italic;
+    margin: 0;
+}
+.error2{
+    color: red;
+    display: none;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: italic;
+    margin: 0;
+}
+}
+.error3{
+    color: red;
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: italic;
+    margin: 0;
+}
+.clickBtn{
+    display: block;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 1rem;
+    background: grey;
+    transition: 0.4s;
+    color: black;
+    font-weight: bold;
+    &:hover{
+        background-color: rgb(88, 87, 87);
+    }
+}
